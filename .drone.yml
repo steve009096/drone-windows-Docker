@@ -12,5 +12,5 @@ pipeline:
   build:
     image: golang:latest
     commands:
-      - echo build3
+      - echo build4
       # - go build
