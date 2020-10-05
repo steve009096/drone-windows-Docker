@@ -6,11 +6,11 @@ pipeline:
   test:
     image: golang:latest
     commands:
-      - echo test8
+      - echo test9
       # - go vet
       # - go test -v -cover
   build:
     image: golang:latest
     commands:
-      - echo build9
+      - echo build-10
       # - go build
