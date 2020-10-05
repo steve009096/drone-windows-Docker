@@ -6,7 +6,7 @@ pipeline:
   test:
     image: golang:latest
     commands:
-      - echo test2
+      - echo test8
       # - go vet
       # - go test -v -cover
   build:
