@@ -13,3 +13,6 @@ pipeline:
     image: golang:latest
     commands:
       - echo build-27
+  trigger:
+    branch:
+    - master
