@@ -12,7 +12,5 @@ pipeline:
   build:
     image: golang:latest
     commands:
-      - echo build-27
-  trigger:
-    branch:
-    - master
+      - echo build-22
+      # - go build
