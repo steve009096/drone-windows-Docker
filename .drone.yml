@@ -5,13 +5,13 @@ name: demo
 platform:
   os: windows
 
-server:
-  host:
-    from_secret: windows_server
-  user:
-    from_secret: windows_username
-  password:
-    from_secret: windows_password
+# server:
+#  host:
+#    from_secret: windows_server
+#  user:
+#    from_secret: windows_username
+#  password:
+#    from_secret: windows_password
 
 steps:
 - name: test
