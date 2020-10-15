@@ -1,16 +1,19 @@
-workspace:
-  base: /go
-  path: src/github.com/drone-demos/drone-with-go
+kind: pipeline
+type: ssh
+name: demo
 
-pipeline:
-  test:
-    image: golang:latest
-    commands:
-      - echo test9
-      # - go vet
-      # - go test -v -cover
-  build:
-    image: golang:latest
-    commands:
-      - echo build-windows-2
-      # - go build
+platform:
+  os: windows
+
+server:
+  host:
+    from_secret: windows_server
+  user:
+    from_secret: windows_username
+  password:
+    from_secret: windows_password
+
+steps:
+- name: test
+  commands:
+  - echo foo
