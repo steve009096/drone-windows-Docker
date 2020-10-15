@@ -12,5 +12,5 @@ pipeline:
   build:
     image: golang:latest
     commands:
-      - echo build-windows-1
+      - echo build-windows-2
       # - go build
