@@ -16,4 +16,4 @@ platform:
 steps:
 - name: test
   commands:
-  - echo foo-1
+  - echo foo-2
