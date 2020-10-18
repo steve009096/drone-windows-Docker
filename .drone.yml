@@ -1,6 +1,6 @@
 kind: pipeline
 type: exec
-name: demo-windos-1
+name: default
 
 platform:
   os: windows
@@ -8,4 +8,4 @@ platform:
 steps:
 - name: test
   commands:
-  - echo foo-2
+  - echo foo-3
