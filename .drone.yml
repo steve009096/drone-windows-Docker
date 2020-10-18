@@ -8,4 +8,4 @@ platform:
 steps:
 - name: test
   commands:
-  - echo foo-3
+  - echo foo-4
