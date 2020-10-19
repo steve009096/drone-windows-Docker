@@ -1,5 +1,5 @@
 kind: pipeline
-type: exec
+type: docker
 name: default
 
 platform:
@@ -7,5 +7,6 @@ platform:
 
 steps:
 - name: test
+  image: mcr.microsoft.com/dotnet/core/aspnet:latest
   commands:
   - echo beauty-1
