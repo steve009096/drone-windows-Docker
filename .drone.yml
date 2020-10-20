@@ -4,6 +4,11 @@ name: default
 
 platform:
   os: windows
+  
+clone:
+  git:
+    image: plugins/git
+    tags: true  
 
 steps:
 - name: test
