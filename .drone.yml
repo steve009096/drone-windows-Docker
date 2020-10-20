@@ -9,12 +9,12 @@ workspace:
   base: /go
   path: src/github.com/drone-demos/drone-with-go  
   
-clone:
-  skip_verify: true
+#clone:
+#  skip_verify: true
   
 steps:
 - name: test
   # image: mcr.microsoft.com/dotnet/core/aspnet:latest
   image: golang
   commands:
-  - echo windows-docker-5
+  - echo windows-docker-6
