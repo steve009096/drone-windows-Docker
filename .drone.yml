@@ -8,7 +8,7 @@ platform:
 steps:
 - name: test
   # image: mcr.microsoft.com/dotnet/core/aspnet:latest
-  image: plugins/golang
+  # image: plugins/golang
   # commands:
   # - echo windows-docker-4
   
