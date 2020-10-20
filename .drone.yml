@@ -7,7 +7,8 @@ platform:
 
 steps:
 - name: test
-  image: mcr.microsoft.com/dotnet/core/aspnet:latest
+  #image: mcr.microsoft.com/dotnet/core/aspnet:latest
+  image: golang
   commands:
-  - echo beauty-1
-  - dir
+  - echo windows-docker-1
+  # - dir
