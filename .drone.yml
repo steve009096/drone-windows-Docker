@@ -5,6 +5,10 @@ name: default
 platform:
   os: windows
   
+workspace:
+  base: /go
+  path: src/github.com/drone-demos/drone-with-go  
+  
 clone:
   git:
     image: plugins/git
