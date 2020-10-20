@@ -10,10 +10,8 @@ workspace:
   path: src/github.com/drone-demos/drone-with-go  
   
 clone:
-  git:
-    image: plugins/git
-    tags: false
-
+  skip_verify: true
+  
 steps:
 - name: test
   # image: mcr.microsoft.com/dotnet/core/aspnet:latest
