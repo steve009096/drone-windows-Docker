@@ -15,6 +15,6 @@ workspace:
 steps:
 - name: test
   # image: mcr.microsoft.com/dotnet/core/aspnet:latest
-  image: golang:ac6a75d69a16
+  image: golang
   commands:
   - echo windows-docker-7
