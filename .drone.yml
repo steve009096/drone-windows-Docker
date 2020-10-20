@@ -10,14 +10,4 @@ steps:
   # image: mcr.microsoft.com/dotnet/core/aspnet:latest
   # image: plugins/golang
   # commands:
-  # - echo windows-docker-4
-  
-  image: appleboy/drone-ssh
-  settings:
-    host: foo.com
-    username: root
-    password: 1234
-    port: 22
-    script:
-      - echo hello
-      - echo world  
+  # - echo windows-docker-3
