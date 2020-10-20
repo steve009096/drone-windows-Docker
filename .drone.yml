@@ -10,5 +10,5 @@ steps:
   #image: mcr.microsoft.com/dotnet/core/aspnet:latest
   image: golang
   commands:
-  - echo windows-docker-1
+  - echo windows-docker-2
   # - dir
